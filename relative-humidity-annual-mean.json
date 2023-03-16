@@ -1,0 +1,248 @@
+[
+ {
+   "year": 1982,
+   "rh_mean_daily": 81.9,
+   "rh_mean_daily_minimum": 63.1,
+   "rh_means_daily_maximum": 94.2
+ },
+ {
+   "year": 1983,
+   "rh_mean_daily": 82.3,
+   "rh_mean_daily_minimum": 63.6,
+   "rh_means_daily_maximum": 94.7
+ },
+ {
+   "year": 1984,
+   "rh_mean_daily": 84.6,
+   "rh_mean_daily_minimum": 66.5,
+   "rh_means_daily_maximum": 95.9
+ },
+ {
+   "year": 1985,
+   "rh_mean_daily": 83.2,
+   "rh_mean_daily_minimum": 64.1,
+   "rh_means_daily_maximum": 95.3
+ },
+ {
+   "year": 1986,
+   "rh_mean_daily": 82.9,
+   "rh_mean_daily_minimum": 63.6,
+   "rh_means_daily_maximum": 94.9
+ },
+ {
+   "year": 1987,
+   "rh_mean_daily": 82.9,
+   "rh_mean_daily_minimum": 64.1,
+   "rh_means_daily_maximum": 95.2
+ },
+ {
+   "year": 1988,
+   "rh_mean_daily": 83.9,
+   "rh_mean_daily_minimum": 65.5,
+   "rh_means_daily_maximum": 95.8
+ },
+ {
+   "year": 1989,
+   "rh_mean_daily": 84.3,
+   "rh_mean_daily_minimum": 64.9,
+   "rh_means_daily_maximum": 96.5
+ },
+ {
+   "year": 1990,
+   "rh_mean_daily": 82.2,
+   "rh_mean_daily_minimum": 62.2,
+   "rh_means_daily_maximum": 94.9
+ },
+ {
+   "year": 1991,
+   "rh_mean_daily": 83.1,
+   "rh_mean_daily_minimum": 64.3,
+   "rh_means_daily_maximum": 95.1
+ },
+ {
+   "year": 1992,
+   "rh_mean_daily": 83.3,
+   "rh_mean_daily_minimum": 64.2,
+   "rh_means_daily_maximum": 95.9
+ },
+ {
+   "year": 1993,
+   "rh_mean_daily": 83.7,
+   "rh_mean_daily_minimum": 64.7,
+   "rh_means_daily_maximum": 95.3
+ },
+ {
+   "year": 1994,
+   "rh_mean_daily": 83.3,
+   "rh_mean_daily_minimum": 64.5,
+   "rh_means_daily_maximum": 95
+ },
+ {
+   "year": 1995,
+   "rh_mean_daily": 84.5,
+   "rh_mean_daily_minimum": 66.2,
+   "rh_means_daily_maximum": 96
+ },
+ {
+   "year": 1996,
+   "rh_mean_daily": 83.3,
+   "rh_mean_daily_minimum": 64,
+   "rh_means_daily_maximum": 95.2
+ },
+ {
+   "year": 1997,
+   "rh_mean_daily": 79.6,
+   "rh_mean_daily_minimum": 59.6,
+   "rh_means_daily_maximum": 92.4
+ },
+ {
+   "year": 1998,
+   "rh_mean_daily": 82.5,
+   "rh_mean_daily_minimum": 64,
+   "rh_means_daily_maximum": 94.9
+ },
+ {
+   "year": 1999,
+   "rh_mean_daily": 84.2,
+   "rh_mean_daily_minimum": 65.3,
+   "rh_means_daily_maximum": 96.6
+ },
+ {
+   "year": 2000,
+   "rh_mean_daily": 84.7,
+   "rh_mean_daily_minimum": 65.8,
+   "rh_means_daily_maximum": 97
+ },
+ {
+   "year": 2001,
+   "rh_mean_daily": 84.3,
+   "rh_mean_daily_minimum": 66.3,
+   "rh_means_daily_maximum": 96.5
+ },
+ {
+   "year": 2002,
+   "rh_mean_daily": 82.5,
+   "rh_mean_daily_minimum": 62.7,
+   "rh_means_daily_maximum": 95.2
+ },
+ {
+   "year": 2003,
+   "rh_mean_daily": 84.3,
+   "rh_mean_daily_minimum": 65.7,
+   "rh_means_daily_maximum": 96.4
+ },
+ {
+   "year": 2004,
+   "rh_mean_daily": 83.5,
+   "rh_mean_daily_minimum": 64.5,
+   "rh_means_daily_maximum": 95.8
+ },
+ {
+   "year": 2005,
+   "rh_mean_daily": 83.1,
+   "rh_mean_daily_minimum": 63.5,
+   "rh_means_daily_maximum": 95.9
+ },
+ {
+   "year": 2006,
+   "rh_mean_daily": 84.6,
+   "rh_mean_daily_minimum": 66.7,
+   "rh_means_daily_maximum": 95.9
+ },
+ {
+   "year": 2007,
+   "rh_mean_daily": 84.5,
+   "rh_mean_daily_minimum": 67.4,
+   "rh_means_daily_maximum": 95.7
+ },
+ {
+   "year": 2008,
+   "rh_mean_daily": 83.5,
+   "rh_mean_daily_minimum": 66.1,
+   "rh_means_daily_maximum": 95
+ },
+ {
+   "year": 2009,
+   "rh_mean_daily": 82.4,
+   "rh_mean_daily_minimum": 63.7,
+   "rh_means_daily_maximum": 94.7
+ },
+ {
+   "year": 2010,
+   "rh_mean_daily": 82.9,
+   "rh_mean_daily_minimum": 63.9,
+   "rh_means_daily_maximum": 95.3
+ },
+ {
+   "year": 2011,
+   "rh_mean_daily": 84.5,
+   "rh_mean_daily_minimum": 66.9,
+   "rh_means_daily_maximum": 95.9
+ },
+ {
+   "year": 2012,
+   "rh_mean_daily": 83.5,
+   "rh_mean_daily_minimum": 64.6,
+   "rh_means_daily_maximum": 96.2
+ },
+ {
+   "year": 2013,
+   "rh_mean_daily": 81.7,
+   "rh_mean_daily_minimum": 63.4,
+   "rh_means_daily_maximum": 95
+ },
+ {
+   "year": 2014,
+   "rh_mean_daily": 78.5,
+   "rh_mean_daily_minimum": 59.7,
+   "rh_means_daily_maximum": 92.2
+ },
+ {
+   "year": 2015,
+   "rh_mean_daily": 76.9,
+   "rh_mean_daily_minimum": 58.6,
+   "rh_means_daily_maximum": 90
+ },
+ {
+   "year": 2016,
+   "rh_mean_daily": 76,
+   "rh_mean_daily_minimum": 58,
+   "rh_means_daily_maximum": 90.3
+ },
+ {
+   "year": 2017,
+   "rh_mean_daily": 82.6,
+   "rh_mean_daily_minimum": 65.9,
+   "rh_means_daily_maximum": 94.5
+ },
+ {
+   "year": 2018,
+   "rh_mean_daily": 79.6,
+   "rh_mean_daily_minimum": 61.2,
+   "rh_means_daily_maximum": 92.7
+ },
+ {
+   "year": 2019,
+   "rh_mean_daily": 76.7,
+   "rh_mean_daily_minimum": 57.2,
+   "rh_means_daily_maximum": 90.4
+ },
+ {
+   "year": 2020,
+   "rh_mean_daily": 78.1,
+   "rh_mean_daily_minimum": 60.2,
+   "rh_means_daily_maximum": 91.4
+ },
+ {
+   "year": 2021,
+   "rh_mean_daily": 78.5,
+   "rh_mean_daily_minimum": 59.3,
+   "rh_means_daily_maximum": 91
+ },
+ {
+   "year": 2022,
+   "rh_mean_daily": 78.6,
+   "rh_mean_daily_minimum": 60,
+   "rh_means_daily_maximum": 90.6
+ }
+]

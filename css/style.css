@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,800;1,200;1,400;1,800&display=swap');
+
+:root {
+    /* Font Family */
+    --global--font-primary: 'Noto Sans', sans-serif;
+
+    /* Font Size */
+    --global--font-size-h1: 12.8rem;
+    --global--font-size-h2: 3.6rem;
+    --global--font-size-h3: 1.8rem;
+    --global--font-size-p: 1.4rem;
+    --global--letter-spacing: normal;
+
+    /* Font Weight */
+    --global--font-weight-regular: 400;
+    --global--font-weight-emphasis: 700;
+
+    /* Spacing & Sizing */
+    --global--spacing-primary: 4rem;
+    --global--spacing-secondary: 1rem;
+    --global--sizing-icon: 2.4rem;
+    --global--sizing-icon-L: 3.6rem; 
+    --global--border-radius: 3.6rem;
+
+    /* Colour */
+    --bg-dark: #363535;
+    --bg-purple: #633C9A;
+    --bg-lime: #ADF05A;
+}
+
+/* Container */
+html { 
+    font-size: 10px; 
+    scroll-behavior: smooth;
+}
+body {
+    font-size: var(--global--font-size-p);
+    font-family: var(--global--font-primary);
+}
+html, body, section {
+    block-size: 100%;
+}
+  
+html {
+    scroll-snap-type: y mandatory;
+}
+
+/* Typography */
+h1, .h1{
+    font-size: var(--global--font-size-h1);
+    margin: 0 0 var(--global--spacing-primary);
+    text-transform: uppercase;
+}
+h2, .h2{
+    font-size: var(--global--font-size-h2);
+    font-weight: var(--global--font-weight-regular);
+}
+h3, .h3{
+    font-size: var(--global--font-size-h3);
+}
+p{
+    line-height: 2rem;
+}
+a, a:visited{
+    color: white;
+}
+.attribution{
+    font-style: italic;
+}
+.attribution a{
+    color: white;
+}
+svg{
+    margin: auto;
+    display: block;
+    overflow: visible;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    background: var(--bg-dark);
+}
+
+/* Section */
+.section{
+    padding: var(--global--spacing-primary);
+    color: white;
+    flex: 1;
+}
+.section._plot{
+    flex: 2;
+}
+.section._info{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section._mapping{
+    flex:2;
+}
+.section._description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section._description img{
+    width: 100%;
+}
+.bg-gradient{
+    background: linear-gradient(30deg, var(--bg-purple), var(--bg-lime));
+}
+.bg-purple {
+    background: var(--bg-purple);
+}
+.progress {
+    animation: 6s linear infinite alternate progress;
+  }
+@keyframes progress {
+    from {
+      background-color: var(--bg-purple);
+    }
+  
+    to {
+      background-color: var(--bg-lime);
+    }
+  }
+.label{
+    text-anchor: end;
+    transform: rotate(35deg);
+    transform-box: fill-box;
+    transform-origin: right;
+    pointer-events: none;
+}
+
+/* Graph */
+.tile:hover{
+    cursor: pointer;
+    margin-top: -2;
+}
+.legend{
+    margin-right: 0;
+}
+.legend .tick line{
+    stroke:var( --bg-dark);
+}
+#data-mapping{
+    margin: 0;
+}
+#data-mapping line {
+    stroke: azure;
+    opacity: .25;
+}
+.spot-humidity:hover {
+    fill: white;
+    cursor: pointer;
+    r: 4;
+}
+line#limit {
+    stroke: steelblue;
+    stroke-width: 1;
+    stroke-dasharray: 3 6;
+}
+/* Tooltip */
+.tooltip{
+    position:absolute;
+    background-color: white;
+    color: black;
+    border: solid;
+    border-width: 1px;
+    padding: 2rem;
+    width: 16rem;
+}

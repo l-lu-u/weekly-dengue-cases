@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Weekly Dengue Fever Cases in Singapore (2012-2022)</title>
+</head>
+<body>
+    <section class="container _landing">
+        <div class="section _plot">
+            <div id="dengue_plot"></div>
+            <!-- <div class="" id="dengue_legend"> </div> -->
+        </div>
+        <div class="section _info progress">
+            <div class="section-heading">
+                <h1>"Break-bone Fever"</h1>
+                <h2>Weekly dengue fever cases in Singapore (2012-2022)</h2>
+            </div>
+            <p class="attribution">
+                Data Source: <a href="https://data.gov.sg/dataset/weekly-infectious-disease-bulletin-cases">Ministry of Health, Singapore</a>
+                <br/>
+                License: Singapore Open Data Licence
+            </p>
+        </div>
+    </section>
+    <section class="container _map bg-purple">
+        <div class="section _description">
+            <div class="section-heading">
+                <h2><u>Assumed</u> data interactions of dengue fever</h2>
+                <p>
+                    Dengue is a viral infection transmitted to humans through the bite of infected mosquitoes. 
+                    The primary vectors that transmit the disease are Aedes aegypti mosquitoes. 
+                    These mosquitoes are also vectors of chikungunya, yellow fever and Zika viruses.
+                </p>
+                <p>
+                    According to WHO, there are around 400 million infections and 100 million symptomatic cases reported annually.
+                </p>
+            </div>
+            <img src="images/mosquito-transparent-background-17-1438403998.png"/>
+        </div>
+        <div class="section _mapping">
+            <svg id="data-mapping">
+                <g>
+                    <g class="links"></g>
+                    <g class="nodes"></g>
+                </g>
+            </svg>
+        </div>
+        <!-- <div class="section">
+            
+        </div> -->
+    </section>
+    <section class="container">
+        <div class="section _description bg-gradient">
+            <div class="section-heading">
+                <h2>Was 2021 less humid than 2020 or 2022?</h2>
+                <p>Annual means of daily relative humidity in Singapore (1982-2022)</p>
+            </div>
+            <div>
+                <p>
+                    Between the severe outbreaks in 2020 and 2022, there were relatively fewer dengue fever cases recorded. 
+                    Was 2021 less humid than 2020 or 2022 in Singapore?
+                </p>
+                <p>
+                    No.
+                </p>
+                <p>
+                    Although the pattern of outbreaks does reflect the impact of monsoon seasons, 
+                    yet, climate parameters seem insufficient to explain the cyclical incidence of dengue fever throughout years.
+                    Social and environmental factors are also influencing the epidemics, such as 
+                </p>
+                <ul>
+                    <li>local constructions,</li>
+                    <li>vector control,</li>
+                    <li>collective immunity,</li>
+                    <li>human population mobility,</li>
+                    <li>public policy and financial support,</li>
+                    <li>
+                        and even, COVID-19 pandemic.
+                        <i>
+                            (Read more: <a href="https://www.channelnewsasia.com/commentary/why-singapore-record-high-dengue-cases-covid-19-2020-coronavirus-687281">Channel News Asia - Commentary: Uncovering the factors fueling record-high dengue cases in Singapore</a>)
+                        </i>
+                    </li>
+                </ul>
+            </div>
+            <p class="attribution">
+                Data Source: <a href="https://data.gov.sg/dataset/relative-humidity-annual-mean">National Environment Agency, Singapore</a>
+                <br/>
+                License: Singapore Open Data Licence
+            </p>
+        </div>
+        <div class="section _plot">
+            <!-- <select id="selectButton"></select> -->
+            <div id="humidity_plot"></div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="section _description">
+            <div class="section-heading">
+                <h2>Resources</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.nature.com/articles/s41597-022-01666-y">
+                            Nature: Geographical clusters of dengue outbreak in Singapore during the Covid-19 nationwide lockdown of 2020
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.denguevirusnet.com/">
+                            Dengue Virus Net
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue">
+                            World Health Organization: Dengue and severe dengue
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.straitstimes.com/singapore/environment/close-to-5500-dengue-cases-recorded-in-spore-so-far-this-year-more-than-for-whole-of-2021">
+                            The Strait Times: Nearly 5,500 dengue cases this year, more than in all of 2021
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Kontinentalist, a Singapore based data visualisation studio, also covered a story about dengue fever outbreaks in Singpoare:
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://kontinentalist.com/stories/why-are-singapore-dengue-fever-clusters-growing-in-2020">
+                            The curious case of dengue in Singapore: Why have clusters surged in 2020?
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Other resources for possible future iterations:
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://www.kaggle.com/datasets/jhossain/dengue-virus-4-complete-genomes?select=den2.fasta">
+                            Dengue Virus - 4 Complete Genomes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.who.int/activities/improving-data-for-dengue">
+                            World Health Organization: Improving data for dengue
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters">
+                            Singapore: National Environment Agency: Dengue Clusters
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    <script src="./js/dengue_plot.js"></script>
+    <script src="./js/mapping.js"></script>
+    <script src="./js/humidity_plot__scatter.js"></script>
+
+</body>
+</html>
